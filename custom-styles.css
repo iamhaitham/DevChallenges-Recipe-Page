@@ -1,0 +1,34 @@
+.font-weigt-700 {
+    font-weight: 700;
+}
+
+.font-weigt-500 {
+    font-weight: 500;
+}
+
+.font-style-italic {
+    font-style: italic;
+}
+
+.font-family-playfair-display {
+    font-family: "Playfair Display";
+}
+
+.font-family-montserrat {
+    font-family: "Montserrat";
+}
+
+#sixDots {
+    margin-top: 0.40rem;
+}
+
+@media only screen and (max-width: 600px) {
+    #pageHeading {
+        font-size: 1.9rem;
+        margin-bottom: -0.32rem;
+    }
+
+    #sixDots {
+        margin-top: 0.30rem;
+    }
+}
