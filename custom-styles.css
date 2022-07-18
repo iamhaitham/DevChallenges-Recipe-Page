@@ -6,6 +6,10 @@
     font-weight: 500;
 }
 
+.font-weigt-400 {
+    font-weight: 400;
+}
+
 .font-style-italic {
     font-style: italic;
 }
@@ -22,6 +26,35 @@
     margin-top: 0.40rem;
 }
 
+.font-size-16px { 
+    font-size: 16px;
+}
+
+.font-size-1\.7rem-large {
+    font-size: 1.70rem;
+}
+
+.color-black {
+    color: black;
+}
+
+.display-block {
+    display: block;
+}
+
+.margin-vertical-8px {
+    margin: 8px 0;
+}
+
+.margin-vertical-20px {
+    margin: 20px 0;
+}
+
+input[type="checkbox"]+span:not(.lever):before {
+    border: 1px solid #828282;
+    border-radius: 4px;
+}
+
 @media only screen and (max-width: 600px) {
     #pageHeading {
         font-size: 1.9rem;
@@ -30,5 +63,9 @@
 
     #sixDots {
         margin-top: 0.30rem;
+    }
+
+    .font-size-1\.5rem-small {
+        font-size: 1.5rem;
     }
 }
