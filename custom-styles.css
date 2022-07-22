@@ -1,3 +1,6 @@
+article {
+    flex-direction: row-reverse;
+}
 
 #Side-Card {
     margin-top: 2.4rem;
@@ -101,10 +104,6 @@ input[type="checkbox"]+span:not(.lever):before {
     align-items: center;
 }
 
-.flex-direction-row-reverse {
-    flex-direction: row-reverse;
-}
-
 .justify-content-center {
     justify-content: center;
 }
@@ -141,5 +140,9 @@ input[type="checkbox"]+span:not(.lever):before {
 
     .font-size-1\.5rem-small {
         font-size: 1.5rem;
+    }
+
+    article {
+        flex-direction: column;
     }
 }
