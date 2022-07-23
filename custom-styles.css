@@ -117,7 +117,7 @@ input[type="checkbox"]+span:not(.lever):before {
     color: #F2994A;
 }
 
-.color-grey {
+.color-grey-light {
     color: #BDBDBD;
 }
 
