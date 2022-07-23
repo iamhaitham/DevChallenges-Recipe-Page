@@ -121,6 +121,10 @@ input[type="checkbox"]+span:not(.lever):before {
     color: #BDBDBD;
 }
 
+.color-grey-dark {
+    color: #828282;
+}
+
 #side-card-responsive {
     box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
 }
