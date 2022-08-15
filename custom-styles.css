@@ -191,4 +191,16 @@ input[type="checkbox"]+span:not(.lever):before {
     #Ingredients > div > div > h5 {
         margin-top: 0;
     }
+
+    .mobile-display-flex {
+        display: flex;
+        flex-direction: row;
+    }
+}
+
+@media only screen and (max-width: 992px)  {
+    .mobile-display-flex {
+        display: flex;
+        flex-direction: row;
+    }
 }
